@@ -9,8 +9,8 @@ public class Pozicio {
         this.y = y;
     }
 
-    public double distance(Pozicio p1, Pozicio p2) {
-        return Math.sqrt(Math.pow((p2.x - p1.x), 2) + Math.pow((p2.y - p1.y), 2));
+    public double distance(Pozicio p2) {
+        return Math.sqrt(Math.pow((p2.x - this.x), 2) + Math.pow((p2.y - this.y), 2));
     }
 
 
